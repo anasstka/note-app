@@ -7,7 +7,7 @@ import com.anasstka.noteapp.feature_note.domain.util.OrderType
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
-class GatNotesUseCase(
+class GetNotesUseCase(
     private val repository: NoteRepository
 ) {
 
