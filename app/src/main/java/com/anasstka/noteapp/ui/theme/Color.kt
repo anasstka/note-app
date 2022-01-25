@@ -2,7 +2,7 @@ package com.anasstka.noteapp.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val DarkGray = Color(0xFF202020)
+val DarkGray = Color(0xFF252525)
 val LightBlue = Color(0xFFD7E8DE)
 
 val MauveColor = Color(0xFFFD99FF)
