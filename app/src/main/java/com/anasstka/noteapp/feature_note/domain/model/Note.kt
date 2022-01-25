@@ -7,7 +7,7 @@ import java.lang.Exception
 
 @Entity
 data class Note(
-    @PrimaryKey val id: Int,
+    @PrimaryKey val id: Int?,
     val title: String,
     val content: String,
     val timestamp: Long,
