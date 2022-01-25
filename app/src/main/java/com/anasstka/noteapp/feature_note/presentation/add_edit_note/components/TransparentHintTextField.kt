@@ -15,7 +15,7 @@ import androidx.compose.ui.text.TextStyle
 fun TransparentHintTextField(
     text: String,
     hint: String,
-    modifier: Modifier,
+    modifier: Modifier = Modifier,
     isHintVisible: Boolean = true,
     onValueChange: (String) -> Unit,
     textStyle: TextStyle = TextStyle(),
